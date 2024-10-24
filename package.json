@@ -1,7 +1,16 @@
 {
-  "name": "PL3 V2",
+  "name": "euro",
   "version": "1.0.0",
   "dependencies": {
     "express": "^4.21.1"
-  }
+  },
+  "description": "��#\u0000 \u0000S\u0000I\u0000R\u0000-\u0000E\u0000u\u0000r\u0000o\u0000m\u0000i\u0000l\u0000h\u0000o\u0000e\u0000s\u0000\r\u0000 \u0000",
+  "main": "apa.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node apa.js"
+  },
+  "author": "",
+  "license": "ISC"
 }

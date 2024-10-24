@@ -4,6 +4,7 @@ const app = express();
 const Numeros = new Set();
 const Stars = new Set();
 
+app.use(express.static('public'));
 
 function generateRandomNumbers() {
    Numeros.clear();
