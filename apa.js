@@ -21,7 +21,7 @@ function generateRandomNumbers() {
    }
 }
 
-app.get('', function (req, res) {
+app.get('/euro', function (req, res) {
    generateRandomNumbers();
    res.setHeader('Content-Type', 'application/json');
    res.setHeader("Access-Control-Allow-Origin", "*")
